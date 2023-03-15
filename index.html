@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+   <h1 class="text-white mb-20">Apply for the position</h1>
+   <p class="text-gold">Fill the form with your information</p>
+   <form class="cv-form" action="submit">
+        <label class="text-gold" for "fname">Name</label>
+        <br>
+        <input class="mt-6 mb-14 w-100" type="text" placeholder="Enter your name" value="" name="fname" id="fname">
+        <br>
+        <label class="text-gold" for "lastname">Last Name</label>
+        <br>
+        <input class="mt-6 mb-14 w-100" type="text" placeholder="Enter your last name" value="" name="lastname" id="lastname">
+        <br>
+        <label class="text-gold" for "phonen">Phone</label>
+        <br>
+        <input class="mt-6 mb-14 w-100" type="number" placeholder="Enter your phone number" value="" name="phonen" id="phonen">
+        <br>
+        <label class="text-gold" for "emaila">Email</label>
+        <br>
+        <input class="mt-6 mb-14 w-100"  type="email" placeholder="Enter your email adress" value="" name="emaila" id="emaila">
+        <br>
+        <label class="text-gold" for "file">Upload your cv</label>
+        <br>
+        <input class="mt-6 mb-14 w-100" type="file" id="file">
+        <br>
+        <label class="text-gold">Subject</label>
+        <br>
+        <input class="mt-6 mb-14 w-100" type="text" placeholder="Enter subject" value="" name="subject" id="subject">
+        <br>
+        <label class="text-gold" for "message">Message</label>
+        <br>
+        <textarea class="mt-6 mb-14" id="message" rows="6" name=""message></textarea>
+        <br>
+        <input class="mt-6 mb-14 w-100" type="checkbox" id="notify" name="notify"> <label class="text-gold" for "notify">Notify me by email</label>
+        <br>
+        <button class="btn btn-primary" type="submit">Apply</button>
+
+
+
+   </form>
+</body>
+</html>

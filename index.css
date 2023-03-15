@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    width: 250px; /*sirina teksta*/
+    margin: 25px; /*razmaknutost od ivice strane*/
+    padding: 16px;
+    border: 4px solid black ; /*solid je za okvir*/
+}
+
+h1{
+    font-weight: 700;
+    font-size:24px;
+}
+
+body{
+    background : #0A2239;
+}
+
+.text-white{  /*ovo su sve klase, koje koristim posle u html fajlu*/
+    color: white;
+}
+
+.text-gold{
+    color: #D3924A;
+}
+
+.mt-6{
+    margin-top: 6px;
+}
+
+.mb-14{
+    margin-bottom: 14px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.text-form{ /*ovog nema*/
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.cv-form{
+     font-weight: 500;
+    font-size: 14px;
+}
+
+.cv-form label{
+    font-weight: 500;
+    font-size:14px ;
+}
+
+.cv-form input[type="text"], /*na koje tipove se ovo odnosi*/
+.cv-form input[type="number"],
+.cv-form input[type="email"]
+{
+    border: 2px solid #CE791B; /*koliko debeo okvir*/
+    border-radius: 6px;  /*radius je kolko ce okruglasti biti*/
+}
+
+.btn {
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    color: aliceblue;
+    background-color: #CE791B;
+    border: 1px solid black;
+}
+
